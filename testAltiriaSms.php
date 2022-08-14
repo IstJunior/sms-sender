@@ -28,7 +28,7 @@ $altiriaSMS->setDebug(true);
 //$altiriaSMS->setEncoding('unicode');
 
  $sDestination = $_POST['number']; 
- $sMessage = $_POST['message'];
+ $sMessage = $_POST['57'.'message'];
 //$sDestination = '346xxxxxxxx,346yyyyyyyy';
 //$sDestination = array('573058721675','573112353686');
 $DateAndTime = date('m-d-Y h:i:s a', time());  
