@@ -1,0 +1,60 @@
+{
+    "name": "altiria/sms-php-client",
+    "description": "Cliente PHP para el envío de SMS con Altiria",
+    "type": "library",
+    "keywords": [
+        "php",
+	"composer",
+	"sms",
+	"httpclient",
+	"psr-4",
+	"sms-api",
+	"sms-messages",
+	"sms-client",
+	"sms-notifications",
+	"sms-gateway",
+	"smsapi",
+	"sms-php",
+	"altiria",
+	"enviar-sms",
+	"envio-de-sms",
+	"envio-sms",
+	"sms-transaccional",
+	"sms-pasarela"
+    ],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Altiria",
+            "email": "soporte@altiria.com",
+            "homepage": "https://www.altiria.com/"
+        }
+    ],
+    "require": {
+	    "php": "^7.0.0",
+	    "guzzlehttp/guzzle": "6.5.5",
+	    "ext-json": "*"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "*"
+    },
+    "config": {
+        "preferred-install": "dist",
+        "sort-packages": true
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.0-dev"
+        }
+    },
+    "autoload": {
+        "psr-4": {
+      	    "AltiriaSmsPhpClient\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+	    "AltiriaSmsPhpClient\\Tests\\": "test/"	
+        }
+    }
+}
